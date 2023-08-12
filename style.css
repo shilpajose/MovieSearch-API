@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=DM+Sans&family=Inter:wght@100&family=Kanit:ital,wght@1,100&family=Pangolin&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300&family=Ubuntu:ital,wght@1,500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/bgg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1c305c;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: start;
+    color: aliceblue;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+section {
+    width: 100%;
+    height: 200px;
+}
+
+#searchinput {
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+#btnID {
+    margin-top: 30px;
+}
+
+#result {
+    margin-top: -60px;
+    width: 48%;
+    margin-left: 35%;
+    gap: 20px;
+    justify-content: center;
+}
+
+#result img {
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    header h2 {
+        text-align: center;
+    }
+
+    #searchinput {
+        margin-left: -20%;
+    }
+
+    #result {
+        display: block !important;
+        margin-top: -108px;
+        width: 32%;
+        margin-left: 26%;
+    }
+    #result img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
